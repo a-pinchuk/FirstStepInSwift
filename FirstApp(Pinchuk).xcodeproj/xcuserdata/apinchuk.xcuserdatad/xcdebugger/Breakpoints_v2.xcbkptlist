@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FirstApp(Pinchuk)/OnboardingView.swift"
+            timestampString = "509540326.806048"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp_Pinchuk_.OnboardingView.init (itemsCount : Swift.Int) -&gt; FirstApp_Pinchuk_.OnboardingView"
+                  moduleName = "FirstApp(Pinchuk)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apinchuk/SWIFT/FirstApp(Pinchuk)/FirstApp(Pinchuk)/OnboardingView.swift"
+                  timestampString = "509542261.339422"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "47">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp_Pinchuk_.OnboardingView.__allocating_init (itemsCount : Swift.Int) -&gt; FirstApp_Pinchuk_.OnboardingView"
+                  moduleName = "FirstApp(Pinchuk)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apinchuk/SWIFT/FirstApp(Pinchuk)/FirstApp(Pinchuk)/OnboardingView.swift"
+                  timestampString = "509542261.34098"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp_Pinchuk_.OnboardingView.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FirstApp_Pinchuk_.OnboardingView&gt;"
+                  moduleName = "FirstApp(Pinchuk)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apinchuk/SWIFT/FirstApp(Pinchuk)/FirstApp(Pinchuk)/OnboardingView.swift"
+                  timestampString = "509542261.342363"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FirstApp_Pinchuk_.OnboardingView.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FirstApp_Pinchuk_.OnboardingView&gt;"
+                  moduleName = "FirstApp(Pinchuk)"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apinchuk/SWIFT/FirstApp(Pinchuk)/FirstApp(Pinchuk)/OnboardingView.swift"
+                  timestampString = "509542261.343966"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
