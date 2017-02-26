@@ -94,8 +94,6 @@
                                     <color key="titleColor" red="0.019625592976808548" green="0.019554458558559418" blue="0.023913072422146797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="bussinessThreadButton:" destination="dj2-uE-0KG" eventType="touchUpInside" id="x7D-v5-wWP"/>
-                                    <action selector="getStartedButton:" destination="dj2-uE-0KG" eventType="touchUpInside" id="H3R-QN-vVK"/>
                                     <action selector="goto:" destination="dj2-uE-0KG" eventType="touchUpInside" id="a0s-u6-OTV"/>
                                 </connections>
                             </button>
@@ -110,7 +108,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="rnW-mI-SCN"/>
                     <connections>
-                        <outlet property="getStartedButton" destination="7yf-67-5IT" id="ILa-RG-Xxk"/>
                         <outlet property="onboardingView" destination="dJO-kA-AS9" id="0XR-vv-Cw6"/>
                         <segue destination="kgx-2H-ssL" kind="show" identifier="from1" id="kZd-8F-Mh9"/>
                         <segue destination="Ypj-cw-onq" kind="show" identifier="from2" id="WUq-ay-MG5"/>
