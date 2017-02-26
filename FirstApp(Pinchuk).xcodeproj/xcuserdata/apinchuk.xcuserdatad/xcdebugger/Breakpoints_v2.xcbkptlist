@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FirstApp(Pinchuk)/OnboardingView.swift"
@@ -17,7 +17,7 @@
             endingLineNumber = "8">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FirstApp_Pinchuk_.OnboardingView.init (itemsCount : Swift.Int) -&gt; FirstApp_Pinchuk_.OnboardingView"
@@ -32,7 +32,7 @@
                   offsetFromSymbolStart = "47">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FirstApp_Pinchuk_.OnboardingView.__allocating_init (itemsCount : Swift.Int) -&gt; FirstApp_Pinchuk_.OnboardingView"
@@ -47,7 +47,7 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FirstApp_Pinchuk_.OnboardingView.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FirstApp_Pinchuk_.OnboardingView&gt;"
@@ -62,7 +62,7 @@
                   offsetFromSymbolStart = "4">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "FirstApp_Pinchuk_.OnboardingView.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FirstApp_Pinchuk_.OnboardingView&gt;"
