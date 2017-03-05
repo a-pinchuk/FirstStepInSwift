@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fQg-2V-NKe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fQg-2V-NKe">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -108,6 +108,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="rnW-mI-SCN"/>
                     <connections>
+                        <outlet property="getStartedButton" destination="7yf-67-5IT" id="ILa-RG-Xxk"/>
                         <outlet property="onboardingView" destination="dJO-kA-AS9" id="0XR-vv-Cw6"/>
                         <segue destination="kgx-2H-ssL" kind="show" identifier="from1" id="kZd-8F-Mh9"/>
                         <segue destination="Ypj-cw-onq" kind="show" identifier="from2" id="WUq-ay-MG5"/>

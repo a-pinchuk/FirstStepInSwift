@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C247EDB1E6C2FAC007BB73D /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C247EDA1E6C2FAC007BB73D /* PaperOnboarding.framework */; };
+		3C247EDC1E6C2FAC007BB73D /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C247EDA1E6C2FAC007BB73D /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3C343E041E5EF9E60014E200 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C343E031E5EF9E60014E200 /* OnboardViewController.swift */; };
 		3C86050D1E5CEF61005075B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86050C1E5CEF61005075B4 /* AppDelegate.swift */; };
 		3C86050F1E5CEF61005075B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86050E1E5CEF61005075B4 /* ViewController.swift */; };
@@ -15,8 +17,6 @@
 		3C8605171E5CEF61005075B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C8605151E5CEF61005075B4 /* LaunchScreen.storyboard */; };
 		3C8605221E5CEF61005075B4 /* FirstApp_Pinchuk_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8605211E5CEF61005075B4 /* FirstApp_Pinchuk_Tests.swift */; };
 		3C86052D1E5CEF61005075B4 /* FirstApp_Pinchuk_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86052C1E5CEF61005075B4 /* FirstApp_Pinchuk_UITests.swift */; };
-		3C86053B1E5DE2E4005075B4 /* PaperOnboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86053A1E5DE2E4005075B4 /* PaperOnboarding.framework */; };
-		3C86053C1E5DE2E4005075B4 /* PaperOnboarding.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3C86053A1E5DE2E4005075B4 /* PaperOnboarding.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3C86053F1E5DE47F005075B4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86053E1E5DE47F005075B4 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,13 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3C86053D1E5DE2E4005075B4 /* Embed Frameworks */ = {
+		3C247ED91E6C2E3E007BB73D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3C86053C1E5DE2E4005075B4 /* PaperOnboarding.framework in Embed Frameworks */,
+				3C247EDC1E6C2FAC007BB73D /* PaperOnboarding.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3C247EDA1E6C2FAC007BB73D /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
 		3C343E031E5EF9E60014E200 /* OnboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
 		3C8605091E5CEF61005075B4 /* FirstApp(Pinchuk).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FirstApp(Pinchuk).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C86050C1E5CEF61005075B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		3C8605281E5CEF61005075B4 /* FirstApp(Pinchuk)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FirstApp(Pinchuk)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C86052C1E5CEF61005075B4 /* FirstApp_Pinchuk_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstApp_Pinchuk_UITests.swift; sourceTree = "<group>"; };
 		3C86052E1E5CEF61005075B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C86053A1E5DE2E4005075B4 /* PaperOnboarding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PaperOnboarding.framework; path = Carthage/Build/iOS/PaperOnboarding.framework; sourceTree = "<group>"; };
 		3C86053E1E5DE47F005075B4 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C86053B1E5DE2E4005075B4 /* PaperOnboarding.framework in Frameworks */,
+				3C247EDB1E6C2FAC007BB73D /* PaperOnboarding.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 		3C8605001E5CEF61005075B4 = {
 			isa = PBXGroup;
 			children = (
-				3C86053A1E5DE2E4005075B4 /* PaperOnboarding.framework */,
+				3C247EDA1E6C2FAC007BB73D /* PaperOnboarding.framework */,
 				3C86050B1E5CEF61005075B4 /* FirstApp(Pinchuk) */,
 				3C8605201E5CEF61005075B4 /* FirstApp(Pinchuk)Tests */,
 				3C86052B1E5CEF61005075B4 /* FirstApp(Pinchuk)UITests */,
@@ -160,7 +160,7 @@
 				3C8605051E5CEF61005075B4 /* Sources */,
 				3C8605061E5CEF61005075B4 /* Frameworks */,
 				3C8605071E5CEF61005075B4 /* Resources */,
-				3C86053D1E5DE2E4005075B4 /* Embed Frameworks */,
+				3C247ED91E6C2E3E007BB73D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
