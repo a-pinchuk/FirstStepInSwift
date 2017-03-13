@@ -80,7 +80,11 @@ class OnboardViewController: UIViewController, PaperOnboardingDataSource, PaperO
         //индексация должна быть с 0, у тебя было начало с еденицы
         switch activeScreen {
         case 0:
+<<<<<<< HEAD
             self.performSegue(withIdentifier: "from1", sender: nil)
+=======
+            self.performSegue(withIdentifier: "shoplist", sender: nil)
+>>>>>>> 252fbe1a0bd22c3b73e0eb19940bdbec000222da
             print("1_case")
         case 1:
             self.performSegue(withIdentifier: "from2", sender: nil)
